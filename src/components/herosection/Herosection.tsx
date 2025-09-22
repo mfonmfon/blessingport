@@ -1,100 +1,58 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Star } from 'lucide-react';
+import { ArrowDown} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import BlessingBackgroundImage from '../../assets/images/BlessingBackgroundPics.jpg'
 
 const Herosection = () => {
+
   return (
     <div>
-       {/* Hero Section */}
-            <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="space-y-8"
-                  >
-                    <div className="space-y-4">
-                      <motion.span
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.2 }}
-                        className="inline-block px-4 py-2 bg-amber-100 text-amber-800 text-sm font-medium rounded-full tracking-wide"
-                      >
-                        FASHION STYLIST & CONSULTANT
-                      </motion.span>
-                      <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                        Elevating
-                        <span className="block text-amber-500">Your Style</span>
-                      </h1>
-                      <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                        From red carpet moments to everyday elegance, I create distinctive style experiences 
-                        that reflect your unique personality and vision.
-                      </p>
-                    </div>
-                    
-                    <div className="flex flex-col sm:flex-row gap-4">
-                      <Link to="/portfolio">
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="bg-black text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-800 transition-colors duration-300 flex items-center space-x-2 group"
-                        >
-                          <span>View My Work</span>
-                          <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-                        </motion.button>
-                      </Link>
-                      <Link to="/contact">
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="border-2 border-black text-black px-8 py-4 rounded-full font-medium text-lg hover:bg-black hover:text-white transition-all duration-300"
-                        >
-                          Get In Touch
-                        </motion.button>
-                      </Link>
-                    </div>
-                  </motion.div>
-      
-                  <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative"
-                  >
-                    <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                      <img
-                        src={BlessingBackgroundImage}
-                        alt="Fashion Stylist Portrait"
-                        className="w-full h-[600px] object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                    </div>
-                    
-                    {/* Floating Card */}
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 1, duration: 0.6 }}
-                      className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl"
-                    >
-                      <div className="flex items-center space-x-4">
-                        <div className="bg-amber-100 p-3 rounded-full">
-                          <Star className="h-6 w-6 text-amber-600" />
-                        </div>
-                        <div>
-                          <p className="font-bold text-gray-900"></p>
-                          <p className="text-gray-600 text-sm"></p>
-                        </div>
-                      </div>
-                    </motion.div>
-                  </motion.div>
-                </div>
-              </div>
-            </section>
-      
+       
+      <section id="home" className="relative h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 overflow-hidden">
+       <div className="absolute inset-0 z-0">
+        <img
+          src={BlessingBackgroundImage}
+          alt="Digital Creator"
+          className="w-full h-full object-cover" 
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
+      </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          // style={{ opacity, scale }}
+          className="max-w-4xl mx-auto z-10 px-4 sm:px-6 lg:px-8"
+        >
+          <p className="inline-block px-4 py-2 bg-amber-100 text-amber-800 text-sm font-medium rounded-full tracking-wide">
+            FASHION STYLIST & CONSULTANT
+          </p>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
+            Redefiining  <br /> Styles With <span className="text-primary">Confidence</span>
+          </h1>
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
+           From red carpet moments to everyday elegance, I create distinctive styles experiences that reflect your unique personality and vision.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="rounded-full px-6 sm:px-8 py-3 text-xs sm:text-sm md:text-base bg-white text-black  hover:bg-primary/90 transition">
+              View My Work
+            </button>
+            <button className="rounded-full px-6 sm:px-8 py-3 text-xs sm:text-sm md:text-base text-white border border-white hover:bg-white/10 transition">
+              Contact Me
+            </button>
+        </div>
+
+        </motion.div>
+        <motion.div
+          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10"
+          animate={{ y: [0, 10, 0] }}
+          transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
+        >
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-white" />
+        </motion.div>
+      </section>
+
     </div>
   )
 }
