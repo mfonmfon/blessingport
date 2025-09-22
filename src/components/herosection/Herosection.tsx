@@ -13,7 +13,7 @@ const Herosection = () => {
         <img
           src={BlessingBackgroundImage}
           alt="Digital Creator"
-          className="w-full h-full object-cover" 
+          className="w-full h-full object-cover bg-black/70" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
       </div>
