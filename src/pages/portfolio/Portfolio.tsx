@@ -1,6 +1,23 @@
-import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X, Heart, Crown, Sparkles } from 'lucide-react';
+import WhiteWeddingThree from '../../assets/portfolioimages/whiteWeddingThree.jpg'
+import WhiteWeddingFour from '../../assets/portfolioimages/whiteWeddingFour.jpg'
+import ClassicWedTwo from '../../assets/portfolioimages/IMG-20250921-WA0028.jpg'
+import ClassicWedOne from '../../assets/portfolioimages/IMG-20250921-WA0027.jpg'
+import OldWedOnePictureFour from '../../assets/portfolioimages/OldWedFour.jpg'
+import OldWedOnePictureFive from '../../assets/portfolioimages/OldWedFive.jpg'
+import GreenLadyOne from '../../assets/portfolioimages/GreenDressOne.jpg'
+import LoveBird from '../../assets/portfolioimages/LoveBird.jpg'
+import BirthdayPicFive from '../../assets/portfolioimages/BirthdayPicsOne.jpg'
+import WeddingPicture from '../../assets/portfolioimages/IMG-20250921-WA0013.jpg'
+import TifePicsFour from '../../assets/portfolioimages/TifePicsFour.jpg'
+import TifePicsFive from '../../assets/portfolioimages/TifePicsFive.jpg'
+
+import TifeWeddingVideo from '../../assets/video/TifeEmayeVid.mp4'
+
+//videos import
+import FirstWeddingVideo from '../../assets/video/weddingvidone.mp4'
+import { useState } from 'react';
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -14,7 +31,7 @@ const Portfolio = () => {
       category: 'white-wedding',
       title: 'Elegant White Wedding',
       description: 'Classic bridal styling with modern touches',
-      image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg',
+      image: WhiteWeddingFour,
       client: 'Sarah & Michael',
       size: 'large' // large, medium, small for staggered layout
     },
@@ -23,7 +40,7 @@ const Portfolio = () => {
       category: 'traditional-wedding',
       title: 'Traditional African Wedding',
       description: 'Cultural heritage meets contemporary style',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg',
+      image: BirthdayPicFive,
       client: 'Amara & Kwame',
       size: 'medium'
     },
@@ -32,7 +49,7 @@ const Portfolio = () => {
       category: 'white-wedding',
       title: 'Garden Party Wedding',
       description: 'Romantic outdoor ceremony styling',
-      image: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg',
+      image: TifePicsFive,
       client: 'Emma & James',
       size: 'small'
     },
@@ -41,7 +58,7 @@ const Portfolio = () => {
       category: 'fashion',
       title: 'Executive Power Dressing',
       description: 'Professional wardrobe transformation',
-      image: 'https://images.pexels.com/photos/3184340/pexels-photo-3184340.jpeg',
+      image: OldWedOnePictureFive,
       client: 'Corporate Executive',
       size: 'medium'
     },
@@ -50,7 +67,7 @@ const Portfolio = () => {
       category: 'traditional-wedding',
       title: 'Indian Wedding Ceremony',
       description: 'Vibrant traditional bridal styling',
-      image: 'https://images.pexels.com/photos/3184341/pexels-photo-3184341.jpeg',
+      image: GreenLadyOne,
       client: 'Priya & Raj',
       size: 'large'
     },
@@ -59,7 +76,7 @@ const Portfolio = () => {
       category: 'bridal-party',
       title: 'Bridesmaids Coordination',
       description: 'Harmonious bridal party styling',
-      image: 'https://images.pexels.com/photos/3184342/pexels-photo-3184342.jpeg',
+      image: LoveBird,
       client: 'Wedding Party of 8',
       size: 'small'
     },
@@ -68,7 +85,7 @@ const Portfolio = () => {
       category: 'white-wedding',
       title: 'Vintage Inspired Wedding',
       description: 'Timeless elegance with vintage flair',
-      image: 'https://images.pexels.com/photos/3184343/pexels-photo-3184343.jpeg',
+      image: ClassicWedOne,
       client: 'Isabella & Thomas',
       size: 'medium'
     },
@@ -77,7 +94,7 @@ const Portfolio = () => {
       category: 'editorial',
       title: 'Bridal Magazine Shoot',
       description: 'Editorial styling for wedding publication',
-      image: 'https://images.pexels.com/photos/3184344/pexels-photo-3184344.jpeg',
+      image: ClassicWedTwo,
       client: 'Bridal Magazine',
       size: 'large'
     },
@@ -86,7 +103,7 @@ const Portfolio = () => {
       category: 'traditional-wedding',
       title: 'Nigerian Traditional Wedding',
       description: 'Authentic cultural wedding styling',
-      image: 'https://images.pexels.com/photos/3184345/pexels-photo-3184345.jpeg',
+      image: WeddingPicture,
       client: 'Adunni & Tunde',
       size: 'small'
     },
@@ -95,7 +112,7 @@ const Portfolio = () => {
       category: 'fashion',
       title: 'Red Carpet Styling',
       description: 'Glamorous event styling',
-      image: 'https://images.pexels.com/photos/3184346/pexels-photo-3184346.jpeg',
+      image: TifePicsFour,
       client: 'Celebrity Client',
       size: 'medium'
     },
@@ -104,7 +121,7 @@ const Portfolio = () => {
       category: 'white-wedding',
       title: 'Beach Wedding Elegance',
       description: 'Coastal wedding styling perfection',
-      image: 'https://images.pexels.com/photos/3184347/pexels-photo-3184347.jpeg',
+      image: OldWedOnePictureFour ,
       client: 'Sophia & David',
       size: 'large'
     },
@@ -113,7 +130,7 @@ const Portfolio = () => {
       category: 'bridal-party',
       title: 'Mother of the Bride',
       description: 'Sophisticated styling for special family',
-      image: 'https://images.pexels.com/photos/3184348/pexels-photo-3184348.jpeg',
+      image: WhiteWeddingThree,
       client: 'Mrs. Johnson',
       size: 'small'
     }
@@ -125,7 +142,7 @@ const Portfolio = () => {
       category: 'white-wedding',
       title: 'Behind the Scenes: White Wedding',
       description: 'Complete bridal transformation process',
-      thumbnail: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg',
+      thumbnail: OldWedOnePictureFour,
       video: 'https://www.w3schools.com/html/mov_bbb.mp4',
       client: 'Sarah & Michael Wedding',
       duration: '3:45'
@@ -135,8 +152,8 @@ const Portfolio = () => {
       category: 'traditional-wedding',
       title: 'Traditional Wedding Styling',
       description: 'Cultural wedding preparation journey',
-      thumbnail: 'https://images.pexels.com/photos/3184466/pexels-photo-3184466.jpeg',
-      video: 'https://www.w3schools.com/html/mov_bbb.mp4',
+      thumbnail: WeddingPicture,
+      video: FirstWeddingVideo,
       client: 'Amara & Kwame Wedding',
       duration: '4:20'
     },
@@ -145,7 +162,7 @@ const Portfolio = () => {
       category: 'fashion',
       title: 'Fashion Week Styling',
       description: 'High fashion editorial styling process',
-      thumbnail: 'https://images.pexels.com/photos/3184467/pexels-photo-3184467.jpeg',
+      thumbnail: BirthdayPicFive,
       video: 'https://www.w3schools.com/html/mov_bbb.mp4',
       client: 'Fashion Week NYC',
       duration: '2:30'
@@ -155,8 +172,8 @@ const Portfolio = () => {
       category: 'bridal-party',
       title: 'Bridal Party Coordination',
       description: 'Styling an entire wedding party',
-      thumbnail: 'https://images.pexels.com/photos/3184468/pexels-photo-3184468.jpeg',
-      video: 'https://www.w3schools.com/html/mov_bbb.mp4',
+      thumbnail:TifePicsFive,
+      video: TifeWeddingVideo,
       client: 'Complete Wedding Party',
       duration: '5:15'
     }
@@ -267,7 +284,7 @@ const Portfolio = () => {
               A curated collection of wedding and fashion styling projects
             </p>
           </motion.div>
-
+     
           <AnimatePresence mode="wait">
             <motion.div
               key={selectedCategory}

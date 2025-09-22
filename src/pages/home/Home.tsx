@@ -1,6 +1,6 @@
 import Herosection from '../../components/herosection/Herosection';
 import StatisticSection from '../../components/statisticSections/StatisticSection';
-import FeaturedBrands from '../../components/featuredbrands/FeaturedBrands';
+// import FeaturedBrands from '../../components/featuredbrands/FeaturedBrands';
 import FeaturedWorkPreview from '../../components/featuredworkspreview/FeaturedWorkPreview';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
      <StatisticSection />
 
       {/* Featured Brands */}
-      <FeaturedBrands />
+      {/* <FeaturedBrands /> */}
       
       {/* Featured Work Preview */}
      <FeaturedWorkPreview />

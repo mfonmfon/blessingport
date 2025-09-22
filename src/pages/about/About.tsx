@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Users, Star, Heart, Camera, Palette } from 'lucide-react';
+import { Award, Users, Heart, Camera, Palette } from 'lucide-react';
+import BlessingAboutPicture from '../../assets/images/BlessingAboutPics.jpg'
 
 const About = () => {
   const skills = [
@@ -38,20 +38,20 @@ const About = () => {
                   <span className="block text-amber-500">Precision</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  With over 8 years of experience in the fashion industry, I've dedicated my career to 
-                  helping individuals and brands discover their unique style identity. From intimate 
-                  personal sessions to high-profile editorial shoots, every project is approached with 
-                  meticulous attention to detail and creative vision.
+                  I’m a Fashion Stylist and the Creative Director / Founder of YouStyling. I have a strong foundation in Bridal Styling ,Wadrobe Management, Brand Styling , Weekly Outfit planning and Moodboard curation. 
+                  I also work closely with Fashion Designers to create and design timeless pieces. 
+                  I’m dedicated to crafting compelling looks that elevates each client’s personal uniqueness.
+                  I am Blessing Bello.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-6 bg-gray-50 rounded-xl">
-                  <div className="text-3xl font-bold text-gray-900">8+</div>
+                  <div className="text-3xl font-bold text-gray-900">4+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="text-center p-6 bg-gray-50 rounded-xl">
-                  <div className="text-3xl font-bold text-gray-900">500+</div>
+                  <div className="text-3xl font-bold text-gray-900">12+</div>
                   <div className="text-gray-600">Happy Clients</div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const About = () => {
             >
               <div className="relative overflow-hidden rounded-2xl">
                 <img
-                  src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg"
+                  src={BlessingAboutPicture}
                   alt="Sophia Fashion Stylist"
                   className="w-full h-[600px] object-cover"
                 />
@@ -82,7 +82,7 @@ const About = () => {
                 <p className="text-gray-900 font-medium mb-2">
                   "Style is a way to say who you are without having to speak."
                 </p>
-                <p className="text-gray-600 text-sm">- Sophia Martinez</p>
+                <p className="text-gray-600 text-sm">- Blessing Bello</p>
               </motion.div>
             </motion.div>
           </div>
@@ -149,21 +149,19 @@ const About = () => {
               className="text-center"
             >
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                My passion for fashion began in childhood, watching my grandmother carefully select 
-                fabrics and create beautiful garments. This early exposure to the artistry of fashion 
-                instilled in me a deep appreciation for the transformative power of clothing.
+                Fashion has always been a part of me. Growing up, I didn’t just play dress-up, I lived it. I loved experimenting with outfits, mixing colors, and seeing how a simple change in style could transform how someone looked and felt. What began as childhood fun slowly became a passion that has shaped my journey today.
+
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                After graduating from Parsons School of Design, I started my career working alongside 
-                renowned stylists in New York. These formative years taught me that great styling goes 
-                beyond following trends – it's about understanding the individual and creating looks 
-                that authentically represent their personality and goals.
+                My love for style pushed me to learn and do more research. I studied trends, observed details, and practiced on myself and those around me. Over time, I realized styling was more than just putting clothes together — it was about telling stories, building confidence, and helping people see the best version of themselves.
+
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, I work with a diverse clientele ranging from celebrities and executives to 
-                everyday individuals seeking to elevate their personal style. Each project is a 
-                collaborative journey of discovery, where we uncover and express the unique beauty 
-                that already exists within.
+                Now, as a fashion stylist, I create looks for special moments from bridal styling and milestone events. For me, it’s not only about the clothes, but the person wearing them. Every outfit I curate is designed to reflect personality, celebrate individuality, and bring out inner confidence.
+
+              </p>
+              <p className='text-lg text-gray-600 leading-relaxed mt-8'>
+                My journey is proof that you don’t always need formal training to pursue your dreams. Passion, creativity, and a genuine love for what you do can take you far. And with each client I style, I’m reminded that fashion is not just about appearance, but about expression, confidence, and joy.
               </p>
             </motion.div>
           </div>
@@ -171,7 +169,7 @@ const About = () => {
       </section>
 
       {/* Achievements Section */}
-      <section className="py-20 bg-black text-white">
+      {/* <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -203,7 +201,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -29,7 +29,6 @@ import TifePicsFour from '../assets/portfolioimages/TifePicsFour.jpg'
 import TifePicsFive from '../assets/portfolioimages/TifePicsFive.jpg'
 
 
-import ClassicWedOne from '../assets/portfolioimages/IMG-20250921-WA0027.jpg'
 import ClassicWedTwo from '../assets/portfolioimages/IMG-20250921-WA0028.jpg'
 import ClassicWedThree from '../assets/portfolioimages/IMG-20250921-WA0029.jpg'
 import ClassicWedFour from '../assets/portfolioimages/IMG-20250921-WA0030.jpg'
@@ -70,8 +69,8 @@ export const projects: Project[] = [
     title: 'Traditional African Wedding',
     category: 'traditional-wedding',
     description: 'A vibrant celebration of African heritage with authentic traditional styling. We incorporated family heirloom jewelry and custom-made traditional attire.',
-    client: 'Amara & Kwame',
-    date: 'August 2024',
+    client: 'Client',
+    date: 'null',
     coverImage: OldWedOnePictureFour,
     images: [
       OldWedOnePictureOne,
@@ -86,11 +85,11 @@ export const projects: Project[] = [
   },
   {
     id: 'garden-party-wedding',
-    title: 'Garden Party Wedding',
+    title: 'White Wedding',
     category: 'white-wedding',
     description: 'A romantic outdoor ceremony with flowing fabrics and natural elements. The styling emphasized organic beauty and effortless elegance.',
-    client: 'Emma & James',
-    date: 'May 2024',
+    client: 'Client',
+    date: 'null',
     coverImage: WhiteWeddingOne,
     images: [
       WhiteWeddingThree,
@@ -103,11 +102,11 @@ export const projects: Project[] = [
   },
   {
     id: 'executive-power-dressing',
-    title: 'Executive Power Dressing',
+    title: 'Birthday Styling',
     category: 'fashion',
     description: 'Professional wardrobe transformation for a C-suite executive. Focus on authoritative yet approachable styling for board meetings and public appearances.',
     client: 'Corporate Executive',
-    date: 'July 2024',
+    date: 'null',
     coverImage: BirthdayPicOne,
     images: [
       BirthdayPicOne,
@@ -128,7 +127,6 @@ export const projects: Project[] = [
     date: 'September 2024',
     coverImage: TifePicsOne,
     images: [
-
       TifePicsOne,
       TifePicsTwo,
       TifePicsThree,
@@ -141,11 +139,11 @@ export const projects: Project[] = [
   },
   {
     id: 'red-carpet-styling',
-    title: 'Red Carpet Styling',
+    title: 'White Wedding',
     category: 'fashion',
     description: 'Glamorous red carpet styling for a high-profile event. Custom gown selection with statement accessories and flawless execution.',
-    client: 'Celebrity Client',
-    date: 'October 2024',
+    client: 'Client',
+    date: 'null',
     coverImage: ClassicWedFive,
     images: [
       ClassicWedTwo,

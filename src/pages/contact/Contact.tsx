@@ -27,25 +27,25 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      info: 'hello@sophiastylist.com',
-      link: 'mailto:hello@sophiastylist.com'
+      info: 'belloblessing765@gmail.com',
+      link: 'mailto:belloblessing765@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      info: '+1 (234) 567-8900',
-      link: 'tel:+1234567890'
+      info: '07068610808',
+      link: 'tel:07068610808'
     },
     {
       icon: MapPin,
       title: 'Location',
-      info: 'New York, NY',
+      info: 'Lagos Nigeria',
       link: null
     },
     {
       icon: Instagram,
       title: 'Instagram',
-      info: '@sophiastylist',
+      info: '@maxwell_blessing',
       link: 'https://instagram.com'
     }
   ];

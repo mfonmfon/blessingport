@@ -12,7 +12,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center space-x-2 group">
               <Sparkles className="h-8 w-8 text-amber-500" />
               <div className="flex flex-col">
-                <span className="text-xl font-bold tracking-tight">SOPHIA</span>
+                <span className="text-xl font-bold tracking-tight">Blessing Bello</span>
                 <span className="text-xs text-gray-400 tracking-wider">FASHION STYLIST</span>
               </div>
             </Link>
@@ -58,19 +58,19 @@ const Footer = () => {
             <div className="space-y-3">
               <a href="mailto:hello@sophiastylist.com" className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors duration-300 text-sm">
                 <Mail className="h-4 w-4" />
-                <span>hello@sophiastylist.com</span>
+                <span>belloblessing765@gmail.com</span>
               </a>
               <a href="tel:+1234567890" className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors duration-300 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+1 (234) 567-8900</span>
+                <span>07068610808</span>
               </a>
               <div className="flex items-center space-x-3 text-gray-300 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>New York, NY</span>
+                <span>Lagos Nigeria</span>
               </div>
               <a href="https://instagram.com" className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors duration-300 text-sm">
                 <Instagram className="h-4 w-4" />
-                <span>@sophiastylist</span>
+                <span>@maxwell_blessing</span>
               </a>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Sophia Fashion Stylist. All rights reserved.
+            © {new Date().getFullYear()} Blessing Bello Fashion Stylist. All rights reserved.
           </p>
         </div>
       </div>

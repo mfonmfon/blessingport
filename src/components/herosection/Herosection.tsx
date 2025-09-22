@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion';
 import { ArrowRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -86,8 +85,8 @@ const Herosection = () => {
                           <Star className="h-6 w-6 text-amber-600" />
                         </div>
                         <div>
-                          <p className="font-bold text-gray-900">Featured in Vogue</p>
-                          <p className="text-gray-600 text-sm">Top Stylist 2024</p>
+                          <p className="font-bold text-gray-900"></p>
+                          <p className="text-gray-600 text-sm"></p>
                         </div>
                       </div>
                     </motion.div>
