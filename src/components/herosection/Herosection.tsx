@@ -29,7 +29,7 @@ const Herosection = () => {
             FASHION STYLIST & CONSULTANT
           </p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-            Redefiining  Styles With <span className="text-primary">Confidence</span>
+            Redefining  Styles With <span className="text-primary">Confidence</span>
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
            From red carpet moments to everyday elegance, I create distinctive styles experiences that reflect your unique personality and vision.
