@@ -12,7 +12,7 @@ import BirthdayPicFive from '../../assets/portfolioimages/BirthdayPicsOne.jpg'
 import WeddingPicture from '../../assets/portfolioimages/IMG-20250921-WA0013.jpg'
 import TifePicsFour from '../../assets/portfolioimages/TifePicsFour.jpg'
 import TifePicsFive from '../../assets/portfolioimages/TifePicsFive.jpg'
-
+import ClassicWedFour from '../../assets/portfolioimages/IMG-20250921-WA0030.jpg'
 import TifeWeddingVideo from '../../assets/video/TifeEmayeVid.mp4'
 
 //videos import
@@ -29,109 +29,109 @@ const Portfolio = () => {
     {
       id: 1,
       category: 'white-wedding',
-      title: 'Elegant White Wedding',
-      description: 'Classic bridal styling with modern touches',
+      title: '',
+      description: '',
       image: WhiteWeddingFour,
-      client: 'Sarah & Michael',
+      client: '',
       size: 'large' // large, medium, small for staggered layout
     },
     {
       id: 2,
       category: 'traditional-wedding',
-      title: 'Traditional African Wedding',
-      description: 'Cultural heritage meets contemporary style',
-      image: BirthdayPicFive,
-      client: 'Amara & Kwame',
+      title: '',
+      description: '',
+      image: OldWedOnePictureFive,
+      client: '',
       size: 'medium'
     },
     {
       id: 3,
       category: 'white-wedding',
-      title: 'Garden Party Wedding',
-      description: 'Romantic outdoor ceremony styling',
-      image: TifePicsFive,
-      client: 'Emma & James',
+      title: '',
+      description: '',
+      image: ClassicWedFour,
+      client: '',
       size: 'small'
     },
     {
       id: 4,
       category: 'fashion',
-      title: 'Executive Power Dressing',
-      description: 'Professional wardrobe transformation',
-      image: OldWedOnePictureFive,
-      client: 'Corporate Executive',
+      title: '',
+      description: '',
+      image: BirthdayPicFive,
+      client: '',
       size: 'medium'
     },
     {
       id: 5,
       category: 'traditional-wedding',
-      title: 'Indian Wedding Ceremony',
-      description: 'Vibrant traditional bridal styling',
-      image: GreenLadyOne,
-      client: 'Priya & Raj',
+      title: '',
+      description: '',
+      image: TifePicsFive,
+      client: '',
       size: 'large'
     },
     {
       id: 6,
       category: 'bridal-party',
-      title: 'Bridesmaids Coordination',
-      description: 'Harmonious bridal party styling',
+      title: '',
+      description: '',
       image: LoveBird,
-      client: 'Wedding Party of 8',
+      client: '',
       size: 'small'
     },
     {
       id: 7,
       category: 'white-wedding',
-      title: 'Vintage Inspired Wedding',
-      description: 'Timeless elegance with vintage flair',
+      title: '',
+      description: '',
       image: ClassicWedOne,
-      client: 'Isabella & Thomas',
+      client: '',
       size: 'medium'
     },
     {
       id: 8,
-      category: 'editorial',
-      title: 'Bridal Magazine Shoot',
-      description: 'Editorial styling for wedding publication',
+      category: 'white-wedding',
+      title: '',
+      description: '',
       image: ClassicWedTwo,
-      client: 'Bridal Magazine',
+      client: '',
       size: 'large'
     },
     {
       id: 9,
       category: 'traditional-wedding',
-      title: 'Nigerian Traditional Wedding',
-      description: 'Authentic cultural wedding styling',
-      image: WeddingPicture,
-      client: 'Adunni & Tunde',
+      title: '',
+      description: '',
+      image: OldWedOnePictureFour,
+      client: '',
       size: 'small'
     },
     {
       id: 10,
       category: 'fashion',
-      title: 'Red Carpet Styling',
-      description: 'Glamorous event styling',
+      title: '',
+      description: '',
       image: TifePicsFour,
-      client: 'Celebrity Client',
+      client: '',
       size: 'medium'
     },
     {
       id: 11,
       category: 'white-wedding',
-      title: 'Beach Wedding Elegance',
-      description: 'Coastal wedding styling perfection',
-      image: OldWedOnePictureFour ,
-      client: 'Sophia & David',
+      title: '',
+      description: '',
+      image: WeddingPicture,
+      client: '',
       size: 'large'
     },
     {
       id: 12,
       category: 'bridal-party',
-      title: 'Mother of the Bride',
-      description: 'Sophisticated styling for special family',
+      title: '',
+      description: '',
       image: WhiteWeddingThree,
-      client: 'Mrs. Johnson',
+      client: '',
       size: 'small'
     }
   ];
@@ -316,8 +316,8 @@ const Portfolio = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                        <span className="inline-block px-3 py-1 bg-amber-500 text-black text-xs font-medium rounded-full mb-3">
-                          {getCategoryLabel(item.category)}
+                        <span className="inline-block px-3 py-1  text-black text-xs font-medium rounded-full mb-3">
+                          {/* {getCategoryLabel(item.category)} */}
                         </span>
                         <h3 className="text-lg font-bold mb-2">{item.title}</h3>
                         <p className="text-gray-200 text-sm mb-2">{item.description}</p>

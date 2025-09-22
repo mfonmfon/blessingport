@@ -4,10 +4,8 @@ import { Link } from 'react-router-dom';
 import BlessingBackgroundImage from '../../assets/images/BlessingBackgroundPics.jpg'
 
 const Herosection = () => {
-
   return (
     <div>
-       
       <section id="home" className="relative h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 overflow-hidden">
        <div className="absolute inset-0 z-0">
         <img
@@ -52,7 +50,6 @@ const Herosection = () => {
           <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-white" />
         </motion.div>
       </section>
-
     </div>
   )
 }

@@ -33,7 +33,7 @@ import ClassicWedTwo from '../assets/portfolioimages/IMG-20250921-WA0028.jpg'
 import ClassicWedThree from '../assets/portfolioimages/IMG-20250921-WA0029.jpg'
 import ClassicWedFour from '../assets/portfolioimages/IMG-20250921-WA0030.jpg'
 import ClassicWedFive from '../assets/portfolioimages/IMG-20250921-WA0025.jpg'
-import ClassicWedSix from '../assets/portfolioimages/IMG-20250921-WA0026.jpg'
+// import ClassicWedSix from '../assets/portfolioimages/IMG-20250921-WA0026.jpg'
 export interface Project {
   id: string;
   title: string;
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: 'Pre wedding styling',
     category: 'white-wedding',
     description: 'A timeless white wedding featuring classic bridal styling with modern touches. The bride wanted a sophisticated look that honored tradition while incorporating contemporary elements.',
-    client: 'Client',
+    client: 'Client Pre wedding shoot',
     date: 'June 2024',
     coverImage: WeddingPicOne,
     images: [
@@ -102,10 +102,10 @@ export const projects: Project[] = [
   },
   {
     id: 'executive-power-dressing',
-    title: 'Birthday Styling',
+    title: 'Clients Birthday shoot',
     category: 'fashion',
     description: 'Professional wardrobe transformation for a C-suite executive. Focus on authoritative yet approachable styling for board meetings and public appearances.',
-    client: 'Corporate Executive',
+    client: 'Birthday Shoot',
     date: 'null',
     coverImage: BirthdayPicOne,
     images: [
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       ClassicWedThree,
       ClassicWedFour,
       ClassicWedFive,
-      ClassicWedSix,
+      // ClassicWedSix,
     ],
     services: ['Red Carpet Styling', 'Designer Coordination', 'Jewelry Selection', 'Event Styling'],
     location: 'Lincoln Center, New York'
