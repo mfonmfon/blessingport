@@ -23,7 +23,7 @@ const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedMedia, setSelectedMedia] = useState(null);
 
-  const categories = ['all', 'white-wedding', 'traditional-wedding', 'fashion', 'editorial', 'bridal-party'];
+  const categories = ['all', 'white-wedding', 'traditional-wedding', 'fashion', 'bridal-party'];
 
   const portfolioImages = [
     {
@@ -59,6 +59,15 @@ const Portfolio = () => {
       title: '',
       description: '',
       image: BirthdayPicFive,
+      client: '',
+      size: 'medium'
+    },
+    {
+      id: 4,
+      category: 'fashion',
+      title: '',
+      description: '',
+      image: GreenLadyOne,
       client: '',
       size: 'medium'
     },
@@ -108,11 +117,20 @@ const Portfolio = () => {
       size: 'small'
     },
     {
+      id: 9,
+      category: 'traditional-wedding',
+      title: '',
+      description: '',
+      image: TifePicsFour,
+      client: '',
+      size: 'small'
+    },
+    {
       id: 10,
       category: 'fashion',
       title: '',
       description: '',
-      image: TifePicsFour,
+      image: BirthdayPicFive,
       client: '',
       size: 'medium'
     },
