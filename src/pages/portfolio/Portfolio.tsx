@@ -143,7 +143,7 @@ const Portfolio = () => {
       title: 'Behind the Scenes: White Wedding',
       description: 'Complete bridal transformation process',
       thumbnail: OldWedOnePictureFour,
-      video: 'https://www.w3schools.com/html/mov_bbb.mp4',
+      video: 'null',
       client: 'Sarah & Michael Wedding',
       duration: '3:45'
     },
@@ -154,7 +154,7 @@ const Portfolio = () => {
       description: 'Cultural wedding preparation journey',
       thumbnail: WeddingPicture,
       video: FirstWeddingVideo,
-      client: 'Amara & Kwame Wedding',
+      client: 'null',
       duration: '4:20'
     },
     {
@@ -163,8 +163,8 @@ const Portfolio = () => {
       title: 'Fashion Week Styling',
       description: 'High fashion editorial styling process',
       thumbnail: BirthdayPicFive,
-      video: 'https://www.w3schools.com/html/mov_bbb.mp4',
-      client: 'Fashion Week NYC',
+      video: 'null',
+      client: 'Client',
       duration: '2:30'
     },
     {
@@ -174,7 +174,7 @@ const Portfolio = () => {
       description: 'Styling an entire wedding party',
       thumbnail:TifePicsFive,
       video: TifeWeddingVideo,
-      client: 'Complete Wedding Party',
+      client: 'Wedding Party',
       duration: '5:15'
     }
   ];
