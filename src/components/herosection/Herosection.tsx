@@ -25,11 +25,11 @@ const Herosection = () => {
           // style={{ opacity, scale }}
           className="max-w-4xl mx-auto z-10 px-4 sm:px-6 lg:px-8"
         >
-          <p className="inline-block px-4 py-2 bg-amber-100 text-amber-800 text-sm font-medium rounded-full tracking-wide">
+          <p className="inline-block px-2 py-2 bg-amber-100 text-amber-800 text-sm font-medium rounded-full tracking-wide">
             FASHION STYLIST & CONSULTANT
           </p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-            Redefiining  <br /> Styles With <span className="text-primary">Confidence</span>
+            Redefiining  Styles With <span className="text-primary">Confidence</span>
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
            From red carpet moments to everyday elegance, I create distinctive styles experiences that reflect your unique personality and vision.

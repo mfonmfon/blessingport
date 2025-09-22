@@ -12,7 +12,7 @@ const StatisticSection = () => {
        {/* Stats Section */}
       <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 md:grid-cols-1 gap-8">
             {stats.map((stat, index) => (
               <motion.div
                 key={index}
